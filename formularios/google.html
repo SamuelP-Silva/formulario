@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        form {
+            padding: 10px;
+            background-color: #2F3D6B;
+            width: 300px;
+            margin: auto;
+            text-align: center;
+            border-radius: 20px;
+            
+        }
+
+        label {
+            color:white;
+            display: block;
+
+        }
+
+        input {
+            display:block;
+            width: 100%;
+            
+        }
+
+        label,input {
+            margin: 5px 0 15px 0;
+        }
+
+        button {
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 8px 5px;
+            border-radius: 5px;
+            display:block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="https://www.google.com/search" method="GET">
+        <label for="">Geração Search</label>
+        <input type="text" name="q"></input>
+        <button>Pesquisar</button>
+    </form>
+    
+</body>
+</html>
